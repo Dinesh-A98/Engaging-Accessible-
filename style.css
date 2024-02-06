@@ -8,6 +8,7 @@
 }
 body {
   background: rgba(20, 20, 20, 1);
+  overflow-x: hidden;
 }
 
 .navbar-nav {
@@ -167,6 +168,44 @@ input {
 .buttons img {
   margin-left: 30px;
 }
+body{
+  overflow-x: hidden;
+}
+.box{
+  Width:382px;
+Height:55px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.54) 0%, #866666 100%);
+position: relative;
+border-radius: 30px;
+margin-left: 130px;
+align-items: center;
+padding: 0px 40px;
+}
+.box img{
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+   margin-top: 10px;
+ 
+}
+.small-contents{
+  display: flex;
+  flex-direction: column;
+ 
+  
+
+}
+.box p{
+  margin-top: 10px;
+  padding: 0px 20px 0px 0px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.flex p{
+  padding: 20px 20px;
+}
 
 /* 
 ============================Mediyd qure========================== */
@@ -205,7 +244,13 @@ input {
     right: 120px;
     top: 270px;
   }
+  
+  .small-contents{
+    display: none;
+  }
 }
+/* ---------------------1st section over----------- */
+
 @media screen and (min-width: 769px) and (max-width: 990px) {
   .body-img {
     margin-left: 30px;
@@ -234,7 +279,7 @@ input {
   input {
     width: 100%;
    
-  }
+  
  
 }
 
